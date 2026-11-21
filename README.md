@@ -13,12 +13,16 @@ Kullanıcıların 10 saniyelik refleks oyunuyla sanal para kazandığı ve kazan
 ### 1. Oyun Sekmesi (Para Kazanma)
 Kullanıcı adını girip **Başla** butonuna bastığında 10 saniyelik geri sayım başlar. Ekranda rastgele konumlarda beliren gülen yüze her tıklandığında bakiye **20 ₺** artar. Süre dolduğunda kullanıcı adı ve toplam kazancı sağ taraftaki **Kullanıcı Listesi**'ne kaydedilir.
 
-![Oyun Oynanış Demosu](assets/oyun-demo.gif)
+<p align="center">
+  <img src="oyun-demo.gif" alt="Oyun Oynanış Demosu" width="750">
+</p>
 
 ### 2. YBS Burger Sekmesi (Sipariş & Ödeme)
 Kullanıcı listeden kendi profilini seçerek kazandığı bakiyeye uygun şekilde **köfte**, **ekmek** ve **ekstra malzemeleri** özelleştirip adet belirleyerek ödeme yapabilir.
 
-![YBS Burger Sipariş Ekranı](assets/ybs-burger.png)
+<p align="center">
+  <img src="ybs-burger.png" alt="YBS Burger Sipariş Ekranı" width="750">
+</p>
 
 ---
 
@@ -39,13 +43,3 @@ Kullanıcı listeden kendi profilini seçerek kazandığı bakiyeye uygun şekil
 * **Dil:** C#
 * **Arayüz:** Windows Forms (WinForms)
 * **Geliştirme Ortamı:** Visual Studio
-
----
-
-## 🚀 Kurulum ve Çalıştırma
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. Repoyu bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/kullanici-adin/proje-adin.git](https://github.com/kullanici-adin/proje-adin.git)

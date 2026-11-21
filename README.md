@@ -1,45 +1,45 @@
-# 🍔 YBS Burger & Tıklama Oyunu
+# 🍔 YBS Burger & Clicker Game
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-Kullanıcıların 10 saniyelik refleks oyunuyla sanal para kazandığı ve kazandıkları bakiyeyle kendi özel burgerlerini oluşturup satın alabildiği **C# Windows Forms** masaüstü uygulamasıdır.
+A **C# Windows Forms** desktop application where users earn virtual currency through a 10-second reflex game and use their accumulated balance to customize and purchase burgers.
 
 ---
 
-## 🎮 Uygulama Görselleri ve Oynanış
+## 🎮 Gameplay & Application Screenshots
 
-### 1. Oyun Sekmesi (Para Kazanma)
-Kullanıcı adını girip **Başla** butonuna bastığında 10 saniyelik geri sayım başlar. Ekranda rastgele konumlarda beliren gülen yüze her tıklandığında bakiye **20 ₺** artar. Süre dolduğunda kullanıcı adı ve toplam kazancı sağ taraftaki **Kullanıcı Listesi**'ne kaydedilir.
+### 1. Game Tab (Earning Currency)
+When the user enters a username and clicks the **Start** button, a 10-second countdown begins. Each click on the smiley face appearing at random positions on the screen increases the balance by **20 ₺**. Once the timer expires, the username and total earnings are recorded in the **User List** on the right.
 
 <p align="center">
-  <img src="oyun-demo.gif" alt="Oyun Oynanış Demosu" width="750">
+  <img src="oyun-demo.gif" alt="Gameplay Demo" width="750">
 </p>
 
-### 2. YBS Burger Sekmesi (Sipariş & Ödeme)
-Kullanıcı listeden kendi profilini seçerek kazandığı bakiyeye uygun şekilde **köfte**, **ekmek** ve **ekstra malzemeleri** özelleştirip adet belirleyerek ödeme yapabilir.
+### 2. YBS Burger Tab (Ordering & Checkout)
+Users select their profile from the list and customize their order by choosing **patty**, **bun**, and **extra toppings** along with the desired quantity within their available balance to complete the purchase[cite: 1].
 
 <p align="center">
-  <img src="ybs-burger.png" alt="YBS Burger Sipariş Ekranı" width="750">
+  <img src="ybs-burger.png" alt="YBS Burger Order Screen" width="750">
 </p>
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
-* **Refleks ve Skor Sistemi:** 10 saniyelik zamanlayıcı (`Timer`) ve dinamik konumlanan hedef mekaniği.
-* **Kullanıcı ve Bakiye Takibi:** Oyun sonunda kazanılan tutarın kullanıcı adıyla birlikte listeye aktarılması ve sipariş ekranında seçilebilmesi.
-* **Özelleştirilebilir Burger Menüsü:**
-  * **Köfte Seçimi:** Tek Köfte (+20 ₺), Çift Köfte (+40 ₺), Üçlü Köfte (+75 ₺)
-  * **Ekmek Seçimi:** Klasik (+0 ₺), Tam Buğday (+10 ₺), Brioche (+15 ₺)
-  * **Ekstra Malzemeler:** Pastırma (+25 ₺), Soğan Halkası (+10 ₺), Mantar (+8 ₺), Jalapeno (+7 ₺), Cheddar (+12 ₺)
-* **Bakiye Kontrolü:** Seçilen malzemeler ve adede göre toplam tutar hesaplama ve kullanıcının mevcut bakiyesine göre ödeme doğrulaması.
+* **Reflex & Scoring System:** 10-second countdown (`Timer`) paired with dynamically positioning target mechanics.
+* **User & Balance Management:** Automatic logging of earned balances alongside usernames and profile selection on the checkout screen.
+* **Customizable Burger Menu:**
+  * **Patty Options:** Single Patty (+20 ₺), Double Patty (+40 ₺), Triple Patty (+75 ₺)[cite: 1]
+  * **Bun Options:** Classic (+0 ₺), Whole Wheat (+10 ₺), Brioche (+15 ₺)[cite: 1]
+  * **Extra Toppings:** Pastrami (+25 ₺), Onion Rings (+10 ₺), Mushrooms (+8 ₺), Jalapeno (+7 ₺), Cheddar (+12 ₺)[cite: 1]
+* **Balance Validation:** Real-time total cost calculation based on selected ingredients and quantity, verifying against the user's current balance.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Tech Stack
 
-* **Dil:** C#
-* **Arayüz:** Windows Forms (WinForms)
-* **Geliştirme Ortamı:** Visual Studio
+* **Language:** C#
+* **UI Framework:** Windows Forms (WinForms)
+* **IDE:** Visual Studio
